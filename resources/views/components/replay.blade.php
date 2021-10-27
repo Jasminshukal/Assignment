@@ -13,7 +13,7 @@
     <div class="col-md-12 row mb-3">
         <div class="col-md-5">
             <div class="custom-file">
-                <input type="file" name="media" class="custom-file-input" id="customFile" multiple="">
+                <input type="file" name="media" class="custom-file-input" id="customFile" accept="image/gif,image/jpeg,video/mp4">
                 <label class="custom-file-label" for="customFile">Upload image</label>
             </div>
         </div>

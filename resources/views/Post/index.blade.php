@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="custom-file">
-                                            <input type="file" name="media[]" class="custom-file-input" id="customFile" multiple>
+                                            <input type="file" name="media[]" class="custom-file-input" id="customFile" multiple accept="image/gif,image/jpeg,video/mp4">
                                             <label class="custom-file-label" for="customFile">Upload image</label>
                                         </div>
                                     </div>
@@ -72,47 +72,6 @@
                     </div>
                 </form>
             </div>
-            <!-- Post /////-->
-
-            <!--- \\\\\\\Post-->
-            {{-- <div class="card gedf-card mb-3">
-                <div class="card-header">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="mr-2">
-                                <img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt="">
-                            </div>
-                            <div class="ml-2">
-                                <div class="h5 m-0">@LeeCross</div>
-                                <div class="h7 text-muted">Miracles Lee Cross</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-ellipsis-h"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card-body">
-                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>10 min ago</div>
-                    <a class="card-link" href="#">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adip.</h5>
-                    </a>
-
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae nulla rem eos ipsa praesentium esse magnam nemo dolor
-                        sequi fuga quia quaerat cum, obcaecati hic, molestias minima iste voluptates.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Like</a>
-                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Comment</a>
-                </div>
-            </div> --}}
             <!-- Post /////-->
 
             @foreach ($posts as $post)
@@ -173,7 +132,8 @@
                     <div class="col-md-12 row mb-3">
                         <div class="col-md-5">
                             <div class="custom-file">
-                                <input type="file" name="media" class="custom-file-input" id="customFile" multiple="">
+
+                                <input type="file" name="media" class="custom-file-input" id="customFile" accept="image/gif,image/jpeg,video/mp4">
                                 <label class="custom-file-label" for="customFile">Upload image</label>
                             </div>
                         </div>
